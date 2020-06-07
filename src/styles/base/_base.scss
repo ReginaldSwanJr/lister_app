@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $l-size;
+    background-color: $ll-blue;
+    color: $d-blue;
+
+    h1, h2{
+        color: $orange
+    }
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
+
+.acct_form {
+    align-content: center;
+    display: inline block;
+
+    label{
+        color: $blue;
+    }
+
+    input{
+        width: 20rem;
+    }
+}
+
+// color pallete
+// https://coolors.co/3d5a80-98c1d9-e0fbfc-ee6c4d-293241
